@@ -1,0 +1,12 @@
+numpy==1.26.3
+PyStemmer==2.2.0.1
+scikit_learn==1.4.0
+setuptools==68.2.2
+translitcodec==0.7.0
+snowballstemmer==2.2.0
+scipy==1.12.0
+chardet==5.2.0
+matplotlib==3.8.2
+pandas==2.2.0
+pytest==8.0.0
+pytest-cov==4.1.0
