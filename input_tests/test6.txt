@@ -1,95 +1,84 @@
-Cytoplasm and Cytoskeleton
-The environment inside the plasma membrane is a
-semifl uid material called cytoplasm. Scientists once thought
-the organelles of eukaryotic cells fl oated freely in the cell’s
+	Cytoplasm and Cytoskeleton:
+	The environment inside the plasma membrane is a
+semifluid material called cytoplasm. Scientists once thought
+the organelles of eukaryotic cells floated freely in the cell’s
 cytoplasm. As technology improved, scientists discovered
 more about cell structures. They discovered a structure within
 the cytoplasm called the cytoskeleton. The cytoskeleton is a
-network of long, thin protein fi bers that provide an anchor
+network of long, thin protein fibers that provide an anchor
 for organelles inside the cell. The cell’s shape and movement
 depend on the cytoskeleton.
-Two types of protein fi bers make up the cytoskeleton.
+	Two types of protein fibers make up the cytoskeleton.
 Microtubules are long, hollow protein cylinders that form a
-fi rm skeleton for the cell. They assist in moving substances
-within the cell. Microfi laments are thin protein threads that
+firm skeleton for the cell. They assist in moving substances
+within the cell. Microfilaments are thin protein threads that
 help give the cell shape and enable the entire cell or parts of
 the cell to move.
-Cell Structures
+	Cell Structures:
 All chemical processes of a typical eukaryotic cell take place
 in the organelles, which move around in the cell’s cytoplasm.
 Proteins are produced, food is transformed into energy, and
 wastes are processed in the organelles. Each organelle has a
 unique structure and function.
-chapter
-Before You Read
-For cells to function correctly, each part must do its job.
-Members of families have jobs or chores that help the whole
-family. On the lines below, list your family members and their
-jobs.
-The eukaryotic cell contains
-organelles.
-What You’ll Learn
-differences in the structures of
-plant and animal cells
-How are plant and animal cells different?
-The fi gure below shows a typical plant cell and a typical
+	How are plant and animal cells different?
+The figure below shows a typical plant cell and a typical
 animal cell. Note how many organelles are found in both types
 of cells. Also, note a few differences, such as the chloroplast
 that appears only in the plant cell. Observe that the vacuole
 in the plant cell is much larger than the vacuole in the animal
-cell. What structure manages cell processes?
+cell.
+	What structure manages cell processes?
 The nucleus is the cell’s managing structure. Most of the
-cell’s genetic material (DNA) is in the nucleus. DNA defi nes
+cell’s genetic material (DNA) is in the nucleus. DNA defines
 the cell and controls protein production. A nuclear envelope
 surrounds the nucleus. Substances pass through the nuclear
 envelope to move in and out of the nucleus.
-Which organelle produces proteins?
+	Which organelle produces proteins?
 Ribosomes produce proteins and are made of two
-components—RNA and protein. Ribosomes are produced in
+components - RNA and protein. Ribosomes are produced in
 the nucleolus, a structure located inside the nucleus. Some
-ribosomes fl oat freely in the cytoplasm. They produce proteins
+ribosomes float freely in the cytoplasm. They produce proteins
 that will be used by other cells. Other ribosomes attach to an
 organelle called the endoplasmic reticulum.
-What attaches to rough endoplasmic reticulum?
-The endoplasmic reticulum, (en duh PLAZ mihk •
-rih TIHK yuh lum) also called ER, is a membrane system of
+	What attaches to rough endoplasmic reticulum?
+The endoplasmic reticulum, also called ER, is a membrane system of
 folded sacs and channels to which ribosomes are attached.
-There are two types of ER. The fi rst type is called rough
+There are two types of ER. The first type is called rough
 endoplasmic reticulum. This is the area where ribosomes
 attach to the ER’s surface. The ribosomes appear to create
 bumps or rough places on the membrane. The second type,
 smooth endoplasmic reticulum, has no ribosomes attached.
 Smooth ER produces complex carbohydrates and lipids.
-What is the purpose of the Golgi apparatus?
+	What is the purpose of the Golgi apparatus?
 Once proteins are created, they move to another organelle,
-the Golgi (GAWL jee) apparatus. The Golgi apparatus
-modifi es, sorts, and packs the proteins into sacs called vesicles.
+the Golgi apparatus. The Golgi apparatus
+modifies, sorts, and packs the proteins into sacs called vesicles.
 The vesicles fuse with the cell’s plasma membrane. There the
 vesicles release the proteins, which move through the plasma
 membrane to the environment outside the cell.
-What is stored in vacuoles?
+	What is stored in vacuoles?
 Cells have vesicles called vacuoles that act as temporary
 storage for materials in the cytoplasm. Vacuoles can store
 food and other material needed by a cell. They can also store
 wastes. Plant cells normally have one large vacuole. Animal
 cells might or might not have a few small vacuoles.
-What are lysosomes?
+	What are lysosomes?
 Lysosomes are vesicles that contain substances that digest
 excess or worn-out organelles and food particles. Lysosomes
 also digest bacteria and viruses that enter the cell.
-What makes up a centriole?
+	What makes up a centriole?
 Centrioles are organelles made of microtubules that
 function during cell division. They usually are found near the
 nucleus of the cell. Plant cells do not contain centrioles.
-Which organelle produces energy?
+	Which organelle produces energy?
 Cells need energy to survive. The organelles that convert
 fuel particles such as sugars into usable energy are called
-mitochondria (mi tuh KAHN dree uh). A mitochondrion has
+mitochondria. A mitochondrion has
 an outer membrane and an inner membrane with many folds,
-as shown in the fi gure below. The membrane provides a large
+as shown in the figure below. The membrane provides a large
 surface area for breaking the bonds of sugar molecules. Energy is
 produced when the bonds are broken.
-How do plant and animal cells differ?
+	How do plant and animal cells differ?
 In addition to mitochondria, plant cells contain chloroplasts.
 Chloroplasts are organelles that capture light energy and
 convert it to chemical energy through a process called
@@ -97,25 +86,25 @@ photosynthesis. Plants can use light energy from any light
 source—usually the Sun. Animal cells do not have chloroplasts
 and cannot use solar energy as fuel for cell processes.
 Plants also have cell walls. The cell wall is a mesh of
-fi bers that surrounds the plasma membrane. It protects and
+fibers that surrounds the plasma membrane. It protects and
 supports the cell. Plant cell walls are made of a carbohydrate
 known as cellulose.
-What are cilia and fl agella?
-Some animal cell surfaces have cilia or fl agella that extend
+	What are cilia and flagella?
+Some animal cell surfaces have cilia or flagella that extend
 beyond the plasma membrane. Cilia are short projections
 that look like hairs. They move back and forth, similar to
 the motion of the oars of a rowboat. Flagella are longer,
-whiplike projections that propel cells. Both cilia and fl agella
+whiplike projections that propel cells. Both cilia and flagella
 are composed of microtubules. They move cells through their
 watery environments. Cilia also move substances along the
 surface of the cell.
-Organelles at Work
+	Organelles at Work:
 The structures in the cell work together to perform cell
 functions. The synthesis of proteins is a major cell function,
 which begins in the nucleus. Protein synthesis continues with
-the ribosomes on the rough ER and the ribosomes that fl oat
+the ribosomes on the rough ER and the ribosomes that float
 freely in the cytoplasm. Most proteins made on the rough ER
 are sent to the Golgi apparatus. There they are packaged in
 vesicles and sent to other organelles or out of the cell. Like each
-member of a soccer team, each cell structure has a specifi c task
+member of a soccer team, each cell structure has a specific task
 to do to make the cell function properly.

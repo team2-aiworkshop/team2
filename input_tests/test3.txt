@@ -1,40 +1,39 @@
-What structure manages cell processes?
+	What structure manages cell processes?
 The nucleus is the cell’s managing structure. Most of the
-cell’s genetic material (DNA) is in the nucleus. DNA defi nes
+cell’s genetic material (DNA) is in the nucleus. DNA defines
 the cell and controls protein production. A nuclear envelope
 surrounds the nucleus. Substances pass through the nuclear
 envelope to move in and out of the nucleus.
-Which organelle produces proteins?
+	Which organelle produces proteins?
 Ribosomes produce proteins and are made of two
-components—RNA and protein. Ribosomes are produced in
+components - RNA and protein. Ribosomes are produced in
 the nucleolus, a structure located inside the nucleus. Some
-ribosomes fl oat freely in the cytoplasm. They produce proteins
+ribosomes float freely in the cytoplasm. They produce proteins
 that will be used by other cells. Other ribosomes attach to an
 organelle called the endoplasmic reticulum.
-What attaches to rough endoplasmic reticulum?
-The endoplasmic reticulum, (en duh PLAZ mihk •
-rih TIHK yuh lum) also called ER, is a membrane system of
+	What attaches to rough endoplasmic reticulum?
+The endoplasmic reticulum, also called ER, is a membrane system of
 folded sacs and channels to which ribosomes are attached.
-There are two types of ER. The fi rst type is called rough
+There are two types of ER. The first type is called rough
 endoplasmic reticulum. This is the area where ribosomes
 attach to the ER’s surface. The ribosomes appear to create
 bumps or rough places on the membrane. The second type,
 smooth endoplasmic reticulum, has no ribosomes attached.
 Smooth ER produces complex carbohydrates and lipids.
-What is the purpose of the Golgi apparatus?
+	What is the purpose of the Golgi apparatus?
 Once proteins are created, they move to another organelle,
-the Golgi (GAWL jee) apparatus. The Golgi apparatus
-modifi es, sorts, and packs the proteins into sacs called vesicles.
+the Golgi apparatus. The Golgi apparatus
+modifies, sorts, and packs the proteins into sacs called vesicles.
 The vesicles fuse with the cell’s plasma membrane. There the
 vesicles release the proteins, which move through the plasma
 membrane to the environment outside the cell.
-What is stored in vacuoles?
+	What is stored in vacuoles?
 Cells have vesicles called vacuoles that act as temporary
 storage for materials in the cytoplasm. Vacuoles can store
 food and other material needed by a cell. They can also store
 wastes. Plant cells normally have one large vacuole. Animal
 cells might or might not have a few small vacuoles.
-What are lysosomes?
+	What are lysosomes?
 Lysosomes are vesicles that contain substances that digest
 excess or worn-out organelles and food particles. Lysosomes
 also digest bacteria and viruses that enter the cell.

@@ -1,30 +1,11 @@
-Cell Structures
+	Cell Structures:
 All chemical processes of a typical eukaryotic cell take place
 in the organelles, which move around in the cell’s cytoplasm.
 Proteins are produced, food is transformed into energy, and
 wastes are processed in the organelles. Each organelle has a
 unique structure and function.
-For cells to function correctly, each part must do its job.
-Members of families have jobs or chores that help the whole
-family. On the lines below, list your family members and their
-jobs.
-Name one cell function
-that takes place in
-organelles.
-Identify the Parts Highlight
-each cell structure as you read
-about it. Underline the function
-of each part.
-The eukaryotic cell contains
-organelles.
-What You’ll Learn
-differences in the structures of
-plant and animal cells
-
-76 Chapter 7 Cellular Structure and Function Reading Essentials
-Copyright © Glencoe/McGraw-Hill, a division of The McGraw-Hill Companies, Inc.
-How are plant and animal cells different?
-The fi gure below shows a typical plant cell and a typical
+	How are plant and animal cells different?
+The figure below shows a typical plant cell and a typical
 animal cell. Note how many organelles are found in both types
 of cells. Also, note a few differences, such as the chloroplast
 that appears only in the plant cell. Observe that the vacuole

@@ -1,10 +1,10 @@
-Organelles at Work
+	Organelles at Work:
 The structures in the cell work together to perform cell
 functions. The synthesis of proteins is a major cell function,
 which begins in the nucleus. Protein synthesis continues with
-the ribosomes on the rough ER and the ribosomes that fl oat
+the ribosomes on the rough ER and the ribosomes that float
 freely in the cytoplasm. Most proteins made on the rough ER
 are sent to the Golgi apparatus. There they are packaged in
 vesicles and sent to other organelles or out of the cell. Like each
-member of a soccer team, each cell structure has a specifi c task
+member of a soccer team, each cell structure has a specific task
 to do to make the cell function properly.
