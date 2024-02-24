@@ -5,6 +5,7 @@ from artifici_lda.logic.stemmer import *
 from artifici_lda.logic.count_vectorizer import *
 from artifici_lda.logic.lda import*
 from sklearn.pipeline import Pipeline
+from nltk.stem import WordNetLemmatizer
 
 from pprint import pprint
 
@@ -68,17 +69,17 @@ class lda_model:
         # Get the topic words and their weightings
         topic_words = self.lda_pipeline.inverse_transform(Xt=None)
         topic_weighting = get_word_weightings(self.lda_pipeline)
-        topic_words_weighting = link_topics_and_weightings(topic_words, topic_weighting)
+        self.topic_1_grams = link_topics_and_weightings(topic_words, topic_weighting)
 
-        # Split the topic words into 1-grams
-        self.topic_1_grams, self.topic_2_grams = split_1_grams_from_n_grams(topic_words_weighting)
+        # Lemmatize all 1-grams 
+        lemmatizer = WordNetLemmatizer()
+
+        self.topic_1_grams = [[(lemmatizer.lemmatize(i[0]), i[1]) for i in topic_1_grams] for topic_1_grams in self.topic_1_grams]
 
     def get_lda_pipeline(self):
         return self.lda_pipeline
     def get_topic_1_grams(self):
         return self.topic_1_grams
-    def get_topic_2_grams(self):
-        return self.topic_2_grams
     def get_paragraphs(self):
         return self.paragraphs
     def get_transformed_paragraphs(self):
@@ -94,7 +95,6 @@ class lda_model:
             out_file.write(str(i + 1))
             out_file.write('\n')
             pprint(self.topic_1_grams[i], out_file)
-            pprint(self.topic_2_grams[i], out_file)
             out_file.write('\n')
 
         # Close the output file

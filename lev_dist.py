@@ -36,6 +36,7 @@ class levenshtein_model:
         max_sum_paragraph_val = 0
 
         for (index, paragraph_sum) in enumerate(paragraph_weighted_sum):
+            pprint(paragraph_sum)
             if paragraph_sum >= max_sum_paragraph_val:
                 max_sum_paragraph_val = paragraph_sum
                 max_sum_paragraph_index = index

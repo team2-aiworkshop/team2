@@ -19,9 +19,9 @@ def test_input(nr):
 
 rake = rake_model('stopwords/stopwords_en.txt', max_words= 1, min_freq= 1)
 
-lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/ai_site_test.txt', n_topics_per_paragraph= 3)
+lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test7.txt', n_topics_per_paragraph= 3)
 
-question = 'What are the performance indicators for the first phase and how are they derived?'
+question = 'What are the costs of training?'
 
 # Read every stopword
 stopwords_file = open('stopwords/stopwords_en.txt', mode='r', encoding='utf-8')
@@ -39,8 +39,9 @@ question = question.replace('.', ' ')
 question = question.replace('?', ' ')
 question = question.replace('!', ' ')
 
+lemmatizer = WordNetLemmatizer()
 keywords = question.split(' ')
-keywords = [i for i in keywords if i != '']
+keywords = [lemmatizer.lemmatize(i) for i in keywords if i != '']
 
 topic_1_gram = lda.get_topic_1_grams()
 transformed_paragraphs = lda.get_transformed_paragraphs()
