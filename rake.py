@@ -18,8 +18,8 @@ def test_input(nr):
 
 class rake_model:
 
-    def __init__(self, stop_words_file, min_chars= 2, max_words= 1, min_freq= 1, language_code= 'en', lang_detect_threshold= 50,
-                 max_words_unknown_lang= 2, generated_stopwords_percentile= 90, generated_stopwords_max_len= 3, 
+    def __init__(self, stop_words_file, min_chars= 2, max_words= 1, min_freq= 1, language_code= 'en', lang_detect_threshold= 100,
+                 max_words_unknown_lang= 1, generated_stopwords_percentile= 90, generated_stopwords_max_len= 3, 
                  generated_stopwords_min_freq= 4):
         self.min_chars = min_chars
         self.max_words = max_words
@@ -61,15 +61,12 @@ class rake_model:
     def update_parameters(self):
         return self.create_model() 
 
-if TESTING:
-    rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt', max_words=2, min_freq=2, generated_stopwords_percentile= 80)
+if __name__ == "__main__":
+    rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt')
 
-    text = test_input(1).split("\t")
+    text = 'What is the organelle that produces proteins?'
 
-
-    for paragraph in text:
-        keywords = rake.model.apply(paragraph)
-        #keywords = [(word , score/2) if word.find(' ') != -1 else (word, score) for word,score in keywords]
-        keywords = sorted(keywords, key = lambda x: x[1])
-        for word in keywords:
-            pprint(word[0])
+    keywords = rake.model.apply(text)
+    #keywords = [(word , score/2) if word.find(' ') != -1 else (word, score) for word,score in keywords]
+    for word in keywords:
+        pprint(word)

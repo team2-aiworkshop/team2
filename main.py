@@ -19,9 +19,9 @@ def test_input(nr):
 
 rake = rake_model('stopwords/stopwords_en.txt', max_words= 1, min_freq= 1)
 
-lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test6.txt', n_topics_per_paragraph= 3)
+lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/ai_site_test.txt', n_topics_per_paragraph= 3)
 
-question = 'What can store food and other material in a cell?'
+question = 'What are the performance indicators for the first phase and how are they derived?'
 
 # Read every stopword
 stopwords_file = open('stopwords/stopwords_en.txt', mode='r', encoding='utf-8')
