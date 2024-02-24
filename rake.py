@@ -1,7 +1,5 @@
 from multi_rake import Rake
 from pprint import pprint
-global TESTING
-TESTING = True
 
 def test_input(nr):
         file = open('input_tests/test' + str(nr) + '.txt', 'r', encoding= 'utf-8')
@@ -17,7 +15,6 @@ def test_input(nr):
         return text
 
 class rake_model:
-
     def __init__(self, stop_words_file, min_chars= 3, max_words= 2, min_freq= 2, language_code= 'en', lang_detect_threshold= 50,
                  max_words_unknown_lang= 2, generated_stopwords_percentile= 50, generated_stopwords_max_len= 3, 
                  generated_stopwords_min_freq= 4):
@@ -62,15 +59,14 @@ class rake_model:
     def update_parameters(self):
         return self.create_model() 
 
-if TESTING:
+if __name__ == "__main__":
     rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt', max_words=2, min_freq=2, generated_stopwords_percentile= 80)
 
-    text = test_input(3).split("\t")
-
+    text = test_input(6).split("\t")
 
     for paragraph in text:
         keywords = rake.model.apply(paragraph)
         #keywords = [(word , score/2) if word.find(' ') != -1 else (word, score) for word,score in keywords]
         keywords = sorted(keywords, key = lambda x: x[1])
         for word in keywords:
-            pprint(word[0])
+            pprint(word)
