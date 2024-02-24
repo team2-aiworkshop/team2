@@ -1,33 +1,39 @@
-    Program purpose and program phasing:
+	Program purpose and program phasing:
 The objective of the Agricultural Development and Credit Program is to return Azerbaijan's
 farming areas to former levels of productivity under a new system characterized by private family and
 group farms operating in private markets.
-    The program will support the development nationwide of: (i) an accessible, secure and unified
+
+	The program will support the development nationwide of: (i) an accessible, secure and unified
 system for registering all rights in real estate (land and buildings); (ii) a network for financial services in
 rural areas consisting of local financial intermediaries (LFIs), such as credit cooperatives and rural
 branches of commercial banks, to provide private farms and other rural enterprises with market-based
 financial services; (iii) mixed public and private advisory services for rural enterprises; and (iv)
 Government capacity to formulate appropriate policy responses to the impact of the anticipated build-up in
-oil revenues on the competitiveness of the rural economy. The program will be implemented in three
+oil revenues on the competitiveness of the rural economy.
+
+	The program will be implemented in three
 phases over a ten year period. The first phase, which is described in this Project Appraisal Document
 (PAD), will cover four years and will focus on registering private rights to rural farm land and on testing
 mechanisms for a unified real estate registration system encompassing urban and rural land and buildings.
 It will also pilot development of a self-sustainable rural financial system based on the creation of LFIs, the
 establishment of rural information and advisory services and the strengthening of research and veterinary
-services. Moreover, it will strengthen Government capacity to analyze and respond to the impact on rural
+services.
+
+	Moreover, it will strengthen Government capacity to analyze and respond to the impact on rural
 Azerbaijan of developments in the oil sector. Two subsequent phases lasting three years each will focus on
 expanding the geographical coverage of the rural advisory services and the number of LFIs. In addition,
 initiatives to encourage commercial banks to establish rural branches will be added in the subsequent
 phases. In these later phases, the real estate registration system will be expanded until it reaches
 nationwide coverage.
 
-    Except for the pilot rural finance initiative, the program is largely based on the experience of the
+	Except for the pilot rural finance initiative, the program is largely based on the experience of the
 IDA/IFAD-assisted Farm Privatization Project (FPP) which is currently under implementation. Since
 1996, the FPP has worked extensively with six former state and collective farms undergoing land
 privatization and farm restructuring. This work has served as the basis for the farm privatization process
 now underway nationwide. It has also helped develop modalities for the provision of information and
 training for emerging farmers.
-Performance indicators of progress towards program objectives will be tracked through a
+
+	Performance indicators of progress towards program objectives will be tracked through a
 monitoring and evaluation (M&E) system that will measure: (i) progress in registration real estate
 transactions, including land and improvements; (ii) the performance of LFIs and rural bank branches
 established during the program as demonstrated by their numbers, volume of lending, the financial viability
@@ -35,12 +41,12 @@ of the activities financed, and the soundness of their portfolios; (iii) the num
 providing information and advice to farms; (iv) the numbers of rural enterprises utilizing rural advisory
 services; and (v) the adoption of new farm management practices, and changes in technology.
 
-    Project development objective:
+	Project development objective:
 Private family and group farms and other private rural entrepreneurs begin to register land
 transactions in large numbers, use information and advisory services, and expand investment in their farms
 and other rural businesses.
 
-    Key performance indicators: (see Annex 1)
+	Key performance indicators: (see Annex 1)
 The performance indicators for the first phase project are derived from the program performance
 indicators discussed above. They are based on: (a) adoption of a clear institutional framework and action
 plan for the creation of a unified real estate registration system; number of land titles registered and
@@ -50,7 +56,7 @@ and working, number of private farm units serviced, and the number of research a
 immediate farmer needs; and (d) demonstrated capability for agricultural strategy formulation as measured
 by number of trained staff, and studies prepared and accepted by Government.
 
-    Strategic Context
+	Strategic Context
 Sector-related Country Assistance Strategy (CAS) goal supported by the project: (see Annex I)
 Document number: 15948-Az. Date of latest CAS discussion: 09/22/96
 The proposed project is included in the CAS and is consistent with CAS objectives. The project
@@ -58,8 +64,9 @@ supports the Government's efforts to design and implement policies and programs 
 Azerbaijan's oil potential to achieve sustainable growth and poverty reduction. This focus includes macro
 economic policies that encourage public and private saving and investment, complemented by sector
 initiatives that facilitate efficient allocation of resources, and social policies that preserve Azerbaijan's
-human capital and protect those vulnerable to the changes sweeping the country. The program is directed
-at: (i) establishment of a policy environment and institutional framework conducive to efficient and
+human capital and protect those vulnerable to the changes sweeping the country.
+
+	The program is directed at: (i) establishment of a policy environment and institutional framework conducive to efficient and
 equitable private sector-led sustainable growth; (ii) enhancement of competitiveness in critical economic
 sectors; (iii) alleviation of poverty; and (iv) resettlement and rehabilitation of refugees. The CAS
 emphasizes agriculture in the context of enhancing competitiveness in critical sectors, since it provides
@@ -67,7 +74,7 @@ ample opportunities for expanding output and incomes of Azerbaijan's poor. Speci
 supported by the project are: (i) creating land markets within an appropriate legal framework; and (ii)
 developing a rural credit scheme and advisory services for new private farmers.
 
-    Main sector issues and Government strategy:
+	Main sector issues and Government strategy:
 Agriculture plays an important role in the Azeri economy, contributing over 30 percent of Gross
 Domestic Product (GDP) and providing income and employment for 45 percent of all households. Also, it
 traditionally has contributed significantly to exports both of primary commodities and processed food and
@@ -75,7 +82,8 @@ beverages. The sector produces a wide variety of products and was at one time a 
 vegetables and wine products for the Soviet Union. Climatic conditions are favorable to agriculture,
 though low rainfall makes the sector heavily dependent on irrigation. Nearly 85 percent of cultivated area
 is irrigated.At independence the Government inherited a badly functioning cormnand-based agricultural sector.
-Initial attempts at reform were tentative, but the process gathered momentum in the mid-1990s and has
+
+	Initial attempts at reform were tentative, but the process gathered momentum in the mid-1990s and has
 moved rapidly since. Most state and collective farms have been disbanded and nearly all cultivable land
 has been distributed to individual households in one of the most comprehensive agrarian land reforms in the
 formerly Soviet Union (FSU). Domestic and international trade in agricultural products has been
@@ -85,7 +93,7 @@ agro-enterprises have been privatized. These reforms are fundamentally transform
 centers increasingly on farming households operating in private markets.
 
 
-    While the reforms have been dramatic, the sector remains mired in deep crisis. Output and
+	While the reforms have been dramatic, the sector remains mired in deep crisis. Output and
 productivity, which fell roughly by two thirds during the period since 1990, has stabilized in recent years,
 but there is little evidence yet of a recovery. Rather, the sector is stuck in a low level trap, in which
 emerging farm households lack the resources to re-establish the intensity of farming operations required to
@@ -97,34 +105,42 @@ need to establish a reliable register for land titles; (iii) lack of technical a
 particularly among the newly established farming households; and (iv) a rapidly deteriorating irrigation
 infrastructure that is affecting water availability.
 
-    The Government is acutely aware of the need to address these constraints in order to close the
+	The Government is acutely aware of the need to address these constraints in order to close the
 productivity gap and restore the competitiveness of the sector. The Government is also worried that the
 expected rapid development of oil revenues will cause an appreciation of the real exchange rate which
 could have a negative impact on sector competitiveness. In response to these concerns, the Government is
 developing programs with donor support to address the key constraints in the sector and to make the
 necessary investments in public goods and services that will help it maintain its competitiveness in face of
-adverse exchange rate movements. The program described in this PAD is one part of a two pronged
+adverse exchange rate movements.
+
+	The program described in this PAD is one part of a two pronged
 strategy to turn the sector around and focuses on improving key services for the agricultural sector. The
 second prong is the comprehensive rehabilitation of the irrigation infrastructure and reform of irrigation
 management which is also receiving support from the Bank through two planned operations in FY00 and
 FY01. For the current program the Government is focusing on the following components:
 (i) Rural Finance: Increased availability of rural financial services is one of the Government's key
 and most urgent policy objectives. Lack of access to finance has negatively affected rural growth as the
-sector has not been able to adjust to a market economy. Access to financial services is necessary so that
+sector has not been able to adjust to a market economy.
+
+	Access to financial services is necessary so that
 rural entrepreneurs can take advantage of the recent market reforms to adjust factor proportions, modify
 output mixes, change the scale of operations, and invest in new technologies.
 Private farms and other rural enterprises lack access to credit for a number of reasons. Under the
 old Soviet system, all agricultural credit was provided by the state-owned Agroprom Bank. Commercial
 banks provided no lending to the sector whatsoever. Agroprom basically collapsed following independence
 and is now undergoing restructuring. It will be years, if ever, before a restructured Agroprom emerges as a
-provider of financial services. Meanwhile, the commercial banks have not moved to fill this void. They are
+provider of financial services.
+
+	Meanwhile, the commercial banks have not moved to fill this void. They are
 small, poorly capitalized and face a shortage of loanable funds. They are currently undergoing a major
 consolidation as the Government implements a comprehensive financial sector reform that emphasizes
 increased capital requirements and tighter banking supervision. None of these Banks have rural branches
 and under the circumstances they are not generally looking to expand into new lines of business.  At
 present their technology and high cost structures are ill suited to reach large numbers of small,
 geographically dispersed customers such as farmers and rural enterprises. These banks also perceive rural
-lending to be high cost and high risk. There perception of risk is reinforced by the belief that rural
+lending to be high cost and high risk.
+
+	There perception of risk is reinforced by the belief that rural
 borrowers do not have adequate collateral and the collateral they do have is difficult to use.
 To address these constraints and to increase the flow of savings and credit in rural areas, the
 Government has designed a comprehensive strategy to develop financial markets in rural areas. Over the
@@ -135,18 +151,20 @@ group screening and joint liability, effectively substituting social capital for
 of this short-term approach, the Government intends to launch a pilot initiative to develop sustainable LFIs
 and to provide them with loanable funds. The pilot initiative will entail the following actions.
 
-    Improving the legal and institutional environment for credit transactions by: (i) developing the
+	Improving the legal and institutional environment for credit transactions by: (i) developing the
 implementation rules for a recently passed law on secured transactions; and (ii) preparing options
 for registration of interests secured with movable assets in accordance with the new law. These
 two actions will allow use of movable assets such as inventories of inputs and crops as collateral
 for rural loans.
 
-    Creating and strengthening sound and competitive financial institutions. During the first stage
+	Creating and strengthening sound and competitive financial institutions. During the first stage
 credit cooperatives (CCs), a specific type of LFI, will be promoted. The Government has already
 issued a legal and regulatory framework for CCs. They can be incorporated under the "Law on
 Enterprises" as Limited Liability Enterprises and will be licensed under the Azerbaijan National
 Bank (ANB) decision "Rules of Licensing and Regulating the Banking Activities of Credit
-Cooperatives." This legal framework, combined with appropriate prudential norms and effective
+Cooperatives."
+
+	This legal framework, combined with appropriate prudential norms and effective
 supervision, will provide the environment for the development of a safe and sound system of CCs.
 A number of CCs have been established on a pilot basis under the new regulations and initial
 indications are that these CCs have the ability to raise local funds as equity or savings. CCs will be
@@ -154,7 +172,7 @@ provided with accounting procedures, management information systems, portfolio m
 instruments, internal control procedures, operational manuals, training packages, and design of
 financial services to be offered to their members.
 
-    Using solidarity groups as transitional channels for donor provided funds. This second type of
+	Using solidarity groups as transitional channels for donor provided funds. This second type of
 LFI will be groups of borrowers with 10 to 20 individual farmers and micro-entrepreneurs. These
 groups will be assisted to act collectively to obtain credit on the basis of their joint liability. Social
 capital in the form of existing character information, peer monitoring, and local enforcement will
@@ -162,14 +180,14 @@ be the main instrument to guarantee the group's repayment. These groups of borro
 need a legal incorporation nor a ANB license as they will not be allowed to collect deposits from
 the public.
 
-    Making term funds available to be on-lent to final borrowers through LFIs. Donor financed
+	Making term funds available to be on-lent to final borrowers through LFIs. Donor financed
 credit lines will be made available until banks or other market-based lenders can provide rural
 credit. Nonetheless, to permit the development of market alternatives, these credit lines will be: (i)
 transitory; (ii) well targeted; (iii) appropriately priced --at market rates and with adequate margins
 to LFIs to cover all costs, including credit risks and profit margin; and (iv) well designed in terms
 of recovery incentives for all intermediaries making credit decisions.
 
-    Improving prudential regulations and banking supervision by developing a complete set of
+	Improving prudential regulations and banking supervision by developing a complete set of
 prudential norms for CCs as well as the procedures, methods, and instruments required to
 supervise their compliance together with reporting requirements, supervisory triggers, and licensing
 steps at the ANB.The Government is taking a bold and novel approach to rural finance by creating from scratch

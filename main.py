@@ -19,9 +19,9 @@ def test_input(nr):
 
 rake = rake_model('stopwords/stopwords_en.txt', max_words= 1, min_freq= 1)
 
-lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test7.txt', n_topics_per_paragraph= 3)
+lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test8.txt', n_topics_per_paragraph= 3)
 
-question = 'What are the costs of training?'
+question = 'How long will it be before Agroprom emerges in the role of financial provider'
 
 # Read every stopword
 stopwords_file = open('stopwords/stopwords_en.txt', mode='r', encoding='utf-8')
