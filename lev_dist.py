@@ -17,6 +17,7 @@ class levenshtein_model:
         paragraph_weighted_sum = [0] * len(self.transformed_paragraphs)
         for (index, topic) in enumerate(self.topic_1_grams):
             max_product_sum = 0
+            weight_sum = 0
             for topic_element in topic:
                 max_product = 0
                 for keyword in self.keywords:
@@ -24,7 +25,8 @@ class levenshtein_model:
                     if( product >= max_product):
                         max_product = product
                 max_product_sum += max_product
-            topic_weighted_sum[index] = max_product_sum
+                weight_sum += topic_element[1]
+            topic_weighted_sum[index] = max_product_sum / weight_sum
         
         for (index_paragraph, paragraph) in enumerate(self.transformed_paragraphs):
             for (index_topic, topic_weight) in enumerate(paragraph):

@@ -1,6 +1,7 @@
 from rake import rake_model
 from lev_dist import levenshtein_model
-from lda import lda_model
+#from lda import lda_model
+from lda import *
 from pprint import pprint
 
 def test_input(nr):
@@ -9,7 +10,7 @@ def test_input(nr):
         aux_text = ''
         for word in list:
             aux_text += word
-        aux_text = [word.replace("\n", " ") for word in aux_text]
+        aux_text = [word.replace('\n', ' ') for word in aux_text]
         text = ''
         for i in aux_text:
              text += i 
@@ -20,12 +21,26 @@ rake = rake_model('stopwords/stopwords_en.txt', max_words= 1, min_freq= 1)
 
 lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test6.txt', n_topics_per_paragraph= 3)
 
-question = 'protein proteins protein protein organelle organelle organelle protein'
+question = 'What can store food and other material in a cell?'
+
+# Read every stopword
+stopwords_file = open('stopwords/stopwords_en.txt', mode='r', encoding='utf-8')
+
+stopwords = stopwords_file.readlines()
+
+stopwords_file.close()
+
+# Remove all linebreaks from stopwords
+stopwords = [i.replace('\n', '') for i in stopwords]
+
+question = str(StopWordsRemover(**{ 'stopwords': stopwords }).fit_transform([question])[0])
+
+question = question.replace('.', ' ')
+question = question.replace('?', ' ')
+question = question.replace('!', ' ')
 
 keywords = question.split(' ')
-
-pprint(keywords)
-print()
+keywords = [i for i in keywords if i != '']
 
 topic_1_gram = lda.get_topic_1_grams()
 transformed_paragraphs = lda.get_transformed_paragraphs()
@@ -35,7 +50,5 @@ lev = levenshtein_model(keywords, topic_1_grams= topic_1_gram, transformed_parag
 
 final_paragraph = lev.paragraph_identifier()
 
-print(final_paragraph)
-print()
 pprint(paragraphs[final_paragraph])
 
