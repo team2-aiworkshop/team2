@@ -9,10 +9,9 @@ from sklearn.pipeline import Pipeline
 from pprint import pprint
 
 class lda_model:
-    def __init__(self, language, stopwords_path, text_path, n_topics=20):
+    def __init__(self, language, stopwords_path, text_path, n_topics_per_paragraph=3):
         # Save the model's language and number of topics
         self.language = language
-        self.n_topics = n_topics
 
         # Read every stopword
         stopwords_file = open(stopwords_path, mode='r', encoding='utf-8')
@@ -33,6 +32,9 @@ class lda_model:
 
         # Remove every empty paragraph and replace every linebreak with a space
         self.paragraphs = [i.replace('\n', ' ') for i in self.paragraphs if i != '']
+
+        # Set the number of topics
+        self.n_topics = n_topics_per_paragraph * len(self.paragraphs)
 
         # Set the LDA pipeline's params
         lda_pipeline_params = {
@@ -121,7 +123,7 @@ class lda_model:
 
 if __name__ == "__main__":
     # Create a test model and get its info
-    model = lda_model(language='english', stopwords_path='stopwords/stopwords_en.txt', text_path='input_tests/test6.txt')
+    model = lda_model(language='english', stopwords_path='stopwords/stopwords_en.txt', text_path='input_tests/test2.txt')
 
     model.print_topics('topics.txt')
     model.print_weighted_paragraphs('paragraphs.txt')
