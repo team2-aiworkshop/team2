@@ -1,50 +1,45 @@
 from levenshtein_distance import Levenshtein
+from lda import lda_model
 from pprint import pprint
 
 class levenshtein_model:
-    def __init__(self, input_keywords, topic_list):
-        self.input_keywords = input_keywords
-        self.topic_list = topic_list
+    def __init__(self, input_keywords, topic_1_grams, transformed_paragraphs):
+        self.keywords = input_keywords
+        self.topic_1_grams = topic_1_grams
+        self.transformed_paragraphs = transformed_paragraphs
 
-    def word_to_word_distance(self, word1:str, word2:str):
+    def distance(self, word1:str, word2:str):
         lev = Levenshtein(word1, word2)
         return lev.distance()
         
-    def keywords_to_topic(self):
-        topic_match = {}
-
-        for keyword in self.input_keywords:
-            min_dist = 9999999999999999999999999999999999
-            min_dist_topics = []
-            for topic in self.topic_list:
-                dist = self.word_to_word_distance(keyword, topic)
-                if dist < min_dist:
-                    min_dist_topics = [topic]
-                    min_dist = dist
-                elif dist == min_dist:
-                    min_dist_topics.append(topic)
-            
-            for topic in min_dist_topics:
-                if topic_match.get(topic, None) == None:
-                    topic_match[topic] = [keyword]
-                else:
-                    topic_match[topic].append(keyword)
+    def paragraph_identifier(self):
+        topic_weighted_sum = [0] * len(self.topic_1_grams)
+        paragraph_weighted_sum = [0] * len(self.transformed_paragraphs)
+        for (index, topic) in enumerate(self.topic_1_grams):
+            max_product_sum = 0
+            for topic_element in topic:
+                max_product = 0
+                for keyword in self.keywords:
+                    product = (1 / (self.distance(topic_element[0], keyword) + 1)) * topic_element[1]
+                    if( product >= max_product):
+                        max_product = product
+                max_product_sum += max_product
+            topic_weighted_sum[index] = max_product_sum
         
-        max_keyword_count = 0
-        best_topic = ''
+        for (index_paragraph, paragraph) in enumerate(self.transformed_paragraphs):
+            for (index_topic, topic_weight) in enumerate(paragraph):
+                paragraph_weighted_sum[index_paragraph] += (topic_weighted_sum[index_topic] * topic_weight)
+        
+        max_sum_paragraph_index = 0
+        max_sum_paragraph_val = 0
 
-        for topic in topic_match:
-            if(len(topic_match[topic]) > max_keyword_count):
-                max_keyword_count = len(topic_match[topic])
-                best_topic = topic
+        for (index, paragraph_sum) in enumerate(paragraph_weighted_sum):
+            if paragraph_sum >= max_sum_paragraph_val:
+                max_sum_paragraph_val = paragraph_sum
+                max_sum_paragraph_index = index
+        
+        return max_sum_paragraph_index
 
-        return best_topic
-
-
-lev = levenshtein_model(['nucleus', 'membrane', 'type', 'ribosomes', 'proteins', 'golgi apparatus', 'vacuoles', 'lysosomes'], ['cellular', 'cartasdasda'])
-
-topic = lev.keywords_to_topic()
-pprint(topic)
 
         
 
