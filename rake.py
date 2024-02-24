@@ -1,10 +1,10 @@
 from multi_rake import Rake
 from pprint import pprint
 global TESTING
-TESTING = False
+TESTING = True
 
 def test_input(nr):
-        file = open('input_tests/test_input' + str(nr) + '.txt', 'r', encoding= 'utf-8')
+        file = open('input_tests/test' + str(nr) + '.txt', 'r', encoding= 'utf-8')
         list = file.readlines()
         aux_text = ''
         for word in list:
@@ -63,15 +63,14 @@ class rake_model:
         return self.create_model() 
 
 if TESTING:
-    rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt', max_words=2, min_freq=1, generated_stopwords_percentile= 80)
+    rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt', max_words=2, min_freq=2, generated_stopwords_percentile= 80)
 
-    text = test_input(2).split('?')
+    text = test_input(3).split("\t")
 
 
-    for question in text:
-        keywords = rake.model.apply(question)
+    for paragraph in text:
+        keywords = rake.model.apply(paragraph)
         #keywords = [(word , score/2) if word.find(' ') != -1 else (word, score) for word,score in keywords]
         keywords = sorted(keywords, key = lambda x: x[1])
         for word in keywords:
-            pprint(word)
-        print()
+            pprint(word[0])

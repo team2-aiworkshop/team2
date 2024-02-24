@@ -1,4 +1,5 @@
-from levenshtein_distance import distance
+from levenshtein_distance import Levenshtein
+from pprint import pprint
 
 class levenshtein_model:
     def __init__(self, input_keywords, topic_list):
@@ -6,7 +7,8 @@ class levenshtein_model:
         self.topic_list = topic_list
 
     def word_to_word_distance(self, word1:str, word2:str):
-        return distance(word1, word2)
+        lev = Levenshtein(word1, word2)
+        return lev.distance()
         
     def keywords_to_topic(self):
         topic_match = {}
@@ -15,7 +17,7 @@ class levenshtein_model:
             min_dist = 9999999999999999999999999999999999
             min_dist_topics = []
             for topic in self.topic_list:
-                dist = distance(keyword, topic)
+                dist = self.word_to_word_distance(keyword, topic)
                 if dist < min_dist:
                     min_dist_topics = [topic]
                     min_dist = dist
@@ -37,6 +39,12 @@ class levenshtein_model:
                 best_topic = topic
 
         return best_topic
+
+
+lev = levenshtein_model(['nucleus', 'membrane', 'type', 'ribosomes', 'proteins', 'golgi apparatus', 'vacuoles', 'lysosomes'], ['cellular', 'cartasdasda'])
+
+topic = lev.keywords_to_topic()
+pprint(topic)
 
         
 
