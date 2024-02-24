@@ -1,21 +1,26 @@
 from multi_rake import Rake
+from pprint import pprint
 global TESTING
-TESTING = True
+TESTING = False
 
 def test_input(nr):
-         file = open('input_tests/test' + str(nr) + '.txt', 'r', encoding= 'utf-8')
-         list = file.readlines()
-         text = ''
-         for word in list:
-              text = (text + word )
-         file.close()
-         return text
+        file = open('input_tests/test_input' + str(nr) + '.txt', 'r', encoding= 'utf-8')
+        list = file.readlines()
+        aux_text = ''
+        for word in list:
+            aux_text += word
+        aux_text = [word.replace("\n", " ") for word in aux_text]
+        text = ''
+        for i in aux_text:
+             text += i 
+        file.close()
+        return text
 
 class rake_model:
 
-    def __init__(self, stop_words_file = None, min_chars= 3, max_words= 2, min_freq= 2, language_code= 'en', lang_detect_threshold= 50,
+    def __init__(self, stop_words_file, min_chars= 3, max_words= 2, min_freq= 2, language_code= 'en', lang_detect_threshold= 50,
                  max_words_unknown_lang= 2, generated_stopwords_percentile= 50, generated_stopwords_max_len= 3, 
-                 generated_stopwords_min_freq= 4, stop_words_list = None):
+                 generated_stopwords_min_freq= 4):
         self.min_chars = min_chars
         self.max_words = max_words
         self.min_freq = min_freq
@@ -26,20 +31,19 @@ class rake_model:
         self.generated_stopwords_max_len = generated_stopwords_max_len
         self.generated_stopwords_min_freq = generated_stopwords_min_freq
         self.stop_words_file = stop_words_file
-        self.stop_words = self.stop_words_make_list(stop_words_file, stop_words_list)
+        self.stop_words = self.stop_words_make_list(self.stop_words_file)
         self.model = self.create_model()
         
 
-    def stop_words_make_list(self, stop_words_file, stop_words_list):
-         if self.stop_words_file != None:
-            file = open(stop_words_file, 'r', encoding= 'utf-8')
-            stop_words = file.readlines()
-            file.close()
-            return stop_words
-         else:
-              return stop_words_list
-            
-    
+    def stop_words_make_list(self, stop_words_file):
+        file = open(stop_words_file, 'r', encoding= 'utf-8')
+        stop_words = file.readlines()
+        self.stop_words = stop_words
+        stop_words = [word.replace("\n", "") for word in stop_words]
+        file.close()
+        return stop_words
+           
+
     def create_model(self):
         rake = Rake(
             min_chars= self.min_chars,
@@ -58,11 +62,16 @@ class rake_model:
     def update_parameters(self):
         return self.create_model() 
 
+if TESTING:
+    rake = rake_model(stop_words_file= 'stopwords/stopwords_en.txt', max_words=2, min_freq=1, generated_stopwords_percentile= 80)
 
-rake = rake_model(stop_words_file= "stopwords/stopwords_en.txt")
-text = test_input(6)
+    text = test_input(2).split('?')
 
-keywords = rake.model.apply(text)
 
-for word in keywords:
-    print(word)
+    for question in text:
+        keywords = rake.model.apply(question)
+        #keywords = [(word , score/2) if word.find(' ') != -1 else (word, score) for word,score in keywords]
+        keywords = sorted(keywords, key = lambda x: x[1])
+        for word in keywords:
+            pprint(word)
+        print()
