@@ -1,1 +1,1 @@
-# EduPill - TeensInAI Tram 2
+# EduPill - TeensInAI Team 2
