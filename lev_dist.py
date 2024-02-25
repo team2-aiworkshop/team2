@@ -1,6 +1,4 @@
 from levenshtein_distance import Levenshtein
-from lda import lda_model
-from pprint import pprint
 
 class levenshtein_model:
     def __init__(self, topic_1_grams, transformed_paragraphs):

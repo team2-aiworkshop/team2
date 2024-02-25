@@ -1,8 +1,7 @@
 from keywords import keyword_identifier
 from lev_dist import levenshtein_model
 from lda import lda_model
-from app import application, window
-from pprint import pprint
+from app import application
 import sys
 
 app : application

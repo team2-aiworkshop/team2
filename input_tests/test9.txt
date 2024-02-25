@@ -1,0 +1,150 @@
+	Moral philosophy is the study of what morality is and what it
+requires of us. As Socrates said, it’s about “how we ought to live”—
+and why. It would be helpful if we could begin with a simple, uncontroversial definition of what morality is. Unfortunately, we cannot.
+There are many rival theories, each expounding a different conception of what it means to live morally, and any definition that goes
+beyond Socrates’s simple formulation is bound to offend at least one
+of them.
+	This should make us cautious, but it need not paralyze us. In
+this chapter, I will describe the “minimum conception” of morality.
+As the name suggests, the minimum conception is a core that every
+moral theory should accept, at least as a starting point. First, however, we will examine some moral controversies having to do with
+handicapped children. This discussion will bring into focus the features of the minimum conception.
+	First Example: Baby Theresa
+Theresa Ann Campo Pearson, an infant known to the public as “Baby
+Theresa,” was born in Florida in 1992. Baby Theresa had anencephaly,
+one of the worst genetic disorders. Anencephalic infants are sometimes referred to as “babies without brains,” but that is not quite
+accurate. Important parts of the brain—the cerebrum and cerebellum—
+are missing, as is the top of the skull. The brain stem, however, is still
+there, and so the baby can breathe and have a heartbeat. In the United
+States, most cases of anencephaly are detected during pregnancy, and
+the fetuses are usually aborted. Of those not aborted, half are stillborn,
+or deceased upon birth. Of those born alive, most die within days.
+	Baby Theresa’s story is remarkable only because her parents
+made an unusual request. Knowing that their baby would die soon
+and could never be conscious, Theresa’s parents volunteered her
+organs for immediate transplant. They wanted her kidneys, liver,
+heart, lungs, and eyes to go to other children who needed them. Her
+physicians agreed. Thousands of infants need transplants each year,
+and there are never enough organs available to save them all.
+However, Theresa’s organs were not taken, because Florida law
+forbids the removal of organs until the donor has died. And by the
+time Baby Theresa died, nine days later, it was too late—her organs
+had deteriorated too much to be transplanted.
+	Baby Theresa’s case was widely debated. Should she have been
+killed so that her organs could have been used to save other children?
+A number of professional “ethicists”—people who get paid by universities, hospitals, and law schools to think about such things—were
+asked by the press to comment. Most of them disagreed with the
+parents, instead appealing to time-honored philosophical principles.
+“It just seems too horrifying to use people as means to other people’s
+ends,” said one such expert. Another explained: “It’s unethical to kill
+person A to save person B.” And a third added: “What the parents
+are really asking for is, Kill this dying baby so that its organs may be
+used for someone else. Well, that’s really a horrendous proposition.”
+	Is it horrendous? Opinions were divided. These ethicists
+thought it was, while Theresa’s parents and doctors did not. But we
+are interested in knowing more than what people happen to believe.
+We want to know what’s true. Were the parents right or wrong to
+volunteer their baby’s organs for transplant? To answer this question,
+we have to ask what reasons, or arguments, can be given on each
+side. What can be said for or against the parents’ request?
+	The Benefits Argument. The parents believed that Theresa’s organs
+were doing her no good, because she was not conscious and was
+bound to die soon. The other children, however, could be helped
+tremendously. Thus, the parents seem to have reasoned: If we can
+benefit someone without harming anyone else, then we ought to do so.
+Transplanting the organs would benefit the other children immensely
+without harming Baby Theresa. Therefore, we ought to transplant
+the organs.
+	Is this correct? Not every argument is sound. In addition to
+knowing what arguments can be given for a view, we also want to
+know whether those arguments are any good. Generally speaking, an
+argument is sound if its assumptions are true and its conclusion follows
+logically from them. In this case, the argument has two assumptions:
+that we should help someone if no harm would come of it, and that
+the transplant would help the other children without harming Theresa.
+We might wonder, however, about the claim that Theresa wouldn’t be
+harmed. After all, she would die. Wouldn’t that be bad for her? Unfortunately, it seems clear that it wouldn’t be, in these tragic circumstances. Staying alive is good for someone only if it allows her to do
+things and to have thoughts and feelings and relations with other
+people—in other words, only if the one who is alive has a life. Without
+such things, mere biological existence has no value for the individual.
+So, even though Theresa might remain alive for a few more days, it
+would do her no good.
+	The Benefits Argument provides a powerful reason for transplanting Theresa’s organs. What arguments exist on the other side?
+The Argument That We Should Not Use People as Means. The ethicists who opposed the transplants offered two arguments. The first
+is based on the idea that it is wrong to use people as means to other
+people’s goals. Taking Theresa’s organs would be using her to benefit
+the other children, whom she doesn’t know and can’t care about;
+therefore, it should not be done.
+	Is this argument sound? The idea that we should not “use” people
+is appealing, but this idea is vague. What exactly does it mean? “Using
+people” involves violating their autonomy—their ability to decide for
+themselves how to live their own lives, based on their own desires and
+values. A person’s autonomy may be violated through manipulation,
+trickery, or deceit. For example, I may pretend to be your friend, when
+I am only interested in going out with your sister; or I may lie to you,
+so you’ll give me money; or I may try to convince you that you would
+enjoy going to a movie, when, really, I only want you to give me a ride.
+	In each case, I am manipulating you in order to get something for
+myself. Autonomy is also violated when people are forced to do things
+against their will. This explains why “using people” is wrong; it is
+wrong because it thwarts their autonomy.
+	Taking Baby Theresa’s organs, however, could not thwart her
+autonomy, because she has no autonomy—she cannot make decisions, she has no desires, and she cannot value anything. Would
+taking her organs be “using her” in any other morally significant
+sense? We would, of course, be using her organs for someone else’s
+benefit. But we do that every time we perform a transplant. We
+would also be using her organs without her permission. Would that
+make it wrong? If we were using them against her wishes, then that
+would be a reason for objecting—it would violate her autonomy. But
+Baby Theresa has no wishes. The concept of permission, or consent,
+is irrelevant in a case like hers.
+	When people are unable to make decisions for themselves, and
+others must step in, there are two reasonable guidelines that might be
+adopted. First, we might ask, What would be in their own best interests?
+If we ask this question of Baby Theresa, then we will find no objection
+to taking her organs, because her interests will not be affected. She
+can never be conscious, and she will die soon no matter what.
+The second guideline appeals to the person’s own preferences: We
+might ask, If she could tell us what she wants, what would she say? This
+sort of thought is useful when we are dealing with someone who has
+preferences (or once had them) but cannot express them—for example,
+someone who has slipped into a coma. But, sadly, Baby Theresa has
+no preferences, nor can she ever have any. So we can get no guidance
+from her, not even in our imaginations. The upshot is that we are left
+to do what we think is best.
+	The Argument from the Wrongness of Killing. The ethicists also
+appealed to the principle that it is wrong to kill one person to save
+another. Taking Theresa’s organs would be killing her to save others,
+they said; and so, taking her organs would be wrong.
+	Is this argument sound? The rule against killing is certainly
+among the most important moral precepts. Nevertheless, few people
+believe it is always wrong to kill—most people think there are exceptions, such as killing in self-defense. The question, then, is whether
+taking Baby Theresa’s organs should be regarded as another
+exception. And there are many reasons to think so: Baby Theresa
+is not aware of anything; she will never have a life; she is bound to
+die soon; and taking her organs would help the other babies. Anyone who accepts this will regard the argument as flawed. Usually,
+it is wrong to kill one person to save another, but not always.
+	There is another possibility. Perhaps we should regard Baby
+Theresa as already dead. If this sounds crazy, bear in mind that our
+culture’s conception of death has changed over the years. In 1967,
+the South African doctor Christiaan Barnard performed the first
+heart transplant in a human being. This was an exciting development; heart transplants could potentially save many lives. It was not
+clear, however, whether any lives could be saved in the United States.
+Back then, American law understood death as occurring when the
+heart stops beating. But once a heart stops beating, it quickly degrades
+and becomes unsuitable for transplant. Thus, under American
+law, it was not clear whether any hearts could be harvested for
+transplant. So American law changed. We now understand death as
+occurring, not when the heart stops beating, but when the brain
+stops functioning: “brain death” is now our standard understanding
+of death. This solved the problem about transplants because a braindead patient can still have a healthy heart, suitable for transplant.
+	Anencephalics are not brain dead as we currently understand
+the term. But perhaps we should revise our understanding of it to
+include them. After all, anencephalics lack any hope for conscious
+life, because they have no cerebrum or cerebellum. If we revise our
+concept of brain death to include such cases, then we could view
+these infants as being stillborn. If so, then taking their organs would
+not involve killing them. The Argument from the Wrongness of Killing
+would then be moot.
+	On the whole, then, the arguments in favor of transplanting
+Baby Theresa’s organs seem stronger than the arguments against it.
