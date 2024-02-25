@@ -91,7 +91,7 @@ class lda_model:
 
         # Log each topic's 1-grams and 2-grams
         for i in range(0, self.n_topics):
-            out_file.write('############################################ Topic ')
+            out_file.write('Topic ')
             out_file.write(str(i + 1))
             out_file.write('\n')
             pprint(self.topic_1_grams[i], out_file)
@@ -106,7 +106,6 @@ class lda_model:
         # Log every paragraph with each topic's weight
         for i in range(0, len(self.paragraphs)):
             # Write the file's topic weights
-            out_file.write('############################################\n')
             for j in range(0, self.n_topics):
                 out_file.write('Topic ')
                 out_file.write(str(j + 1))

@@ -1,55 +1,50 @@
-from rake import rake_model
+from keywords import keyword_identifier
 from lev_dist import levenshtein_model
-#from lda import lda_model
-from lda import *
+from lda import lda_model
+from app import application, window
 from pprint import pprint
+import sys
 
-def test_input(nr):
-        file = open('input_tests/test' + str(nr) + '.txt', 'r', encoding= 'utf-8')
-        list = file.readlines()
-        aux_text = ''
-        for word in list:
-            aux_text += word
-        aux_text = [word.replace('\n', ' ') for word in aux_text]
-        text = ''
-        for i in aux_text:
-             text += i 
-        file.close()
-        return text
+app : application
+lda_m : lda_model
+levenshtein_m : levenshtein_model
+kw_identifier : keyword_identifier
 
-rake = rake_model('stopwords/stopwords_en.txt', max_words= 1, min_freq= 1)
+def load_file_callback():
+    global lda_m
+    global levenshtein_m
 
-lda = lda_model('english', 'stopwords/stopwords_en.txt', 'input_tests/test8.txt', n_topics_per_paragraph= 3)
+    # Create the new LDA model and Levenshtein model
+    app.get_window().set_load_button_loading()
 
-question = 'How long will it be before Agroprom emerges in the role of financial provider'
+    lda_m = lda_model(language='english', stopwords_path='stopwords/stopwords_en.txt', text_path=app.get_window().get_file_path())
+    levenshtein_m = levenshtein_model(topic_1_grams=lda_m.get_topic_1_grams(), transformed_paragraphs=lda_m.get_transformed_paragraphs())
 
-# Read every stopword
-stopwords_file = open('stopwords/stopwords_en.txt', mode='r', encoding='utf-8')
+    app.get_window().set_load_button_loaded()
+def generate_answer_callback():
+    global lda_m
+    global levenshtein_m
+    
+    # Extract the keywords from the current question
+    keywords = kw_identifier.get_keywords(app.get_window().get_question())
 
-stopwords = stopwords_file.readlines()
+    # Get the best paragraphs
+    best_paragraphs = levenshtein_m.get_best_paragraphs(keywords)
 
-stopwords_file.close()
+    # Save the best paragraphs to a string
+    best_paragraphs_str = ''
+    for (index, paragraph) in enumerate(best_paragraphs):
+        best_paragraphs_str += lda_m.paragraphs[paragraph]
+        if index != len(best_paragraphs) - 1:
+            best_paragraphs_str += '\n\n'
+    
+    # Display the best paragraphs
+    app.get_window().set_answer(best_paragraphs_str)
 
-# Remove all linebreaks from stopwords
-stopwords = [i.replace('\n', '') for i in stopwords]
+if __name__ == "__main__":
+    # Create the keyword identifier
+    kw_identifier = keyword_identifier(stopwords_path='stopwords/stopwords_en.txt')
 
-question = str(StopWordsRemover(**{ 'stopwords': stopwords }).fit_transform([question])[0])
-
-question = question.replace('.', ' ')
-question = question.replace('?', ' ')
-question = question.replace('!', ' ')
-
-lemmatizer = WordNetLemmatizer()
-keywords = question.split(' ')
-keywords = [lemmatizer.lemmatize(i) for i in keywords if i != '']
-
-topic_1_gram = lda.get_topic_1_grams()
-transformed_paragraphs = lda.get_transformed_paragraphs()
-paragraphs = lda.get_paragraphs()
-
-lev = levenshtein_model(keywords, topic_1_grams= topic_1_gram, transformed_paragraphs= transformed_paragraphs)
-
-final_paragraph = lev.paragraph_identifier()
-
-pprint(paragraphs[final_paragraph])
-
+    # Create and run the application
+    app = application(sys.argv, load_file_callback=load_file_callback, generate_answer_callback=generate_answer_callback)
+    sys.exit(app.run())
